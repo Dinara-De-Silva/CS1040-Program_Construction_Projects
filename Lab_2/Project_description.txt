@@ -1,0 +1,32 @@
+Performance analysis of java collection implementations.
+
+The objec ve of this program is to test the performance of several Java Collec on 
+implementa ons for these methods. 
+
+1. "add" a given element to the collec on 
+2. check if a collec on "contains" a given element 
+3. "remove" a given element from the collec on (if it is present) 
+4. "clear" all the elements in the collec on 
+
+Here I analyse above functions based on 2 categories.
+    1. java collection interface
+    2. java map interface
+
+Under Jaca collection interface I test the performance of following java collection implementations.
+    ->HashSet
+    ->TreeSet
+    ->LinkedHashSet
+    ->ArrayList
+    ->LinkedList
+    ->ArrayDeque
+    ->PriorityQueue
+
+Under Java map interface,
+    ->HashMap
+    ->TreeMap
+    ->LinkedHashMap
+
+
+
+
+
