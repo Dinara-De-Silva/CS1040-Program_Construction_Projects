@@ -1,0 +1,15 @@
+The project is based on java IO Operations, Serialization and Exception Handling.
+
+This project involves developing a Point of Sale (POS) system for the Super-Saving supermarket chain. 
+The system aims to streamline the billing process by fetching item details (e.g., price, weight/size, 
+manufacturing/expiry dates, manufacturer name) based on an item code. The system calculates and applies 
+discounts (0-75%) dynamically and generates an itemized bill with details such as the cashier's name, 
+branch, customer name (if applicable), item list, total discount, total price, and the date and time of billing.
+
+The system also supports managing pending bills, allowing cashiers to pause and save partially 
+completed transactions for customers who need to make adjustments (e.g., weighing fruits/vegetables) and
+continue billing other customers in the meantime. It incorporates serialization for saving 
+and retrieving these pending bills efficiently.
+
+To enhance usability, the system handles invalid item codes by implementing a custom exception, ItemCodeNotFound. 
+This allows cashiers to re-enter the correct item code without disrupting the billing process.
