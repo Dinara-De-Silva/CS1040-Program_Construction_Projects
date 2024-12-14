@@ -1,0 +1,9 @@
+This lab in based Java Concurrancy.
+
+This project is a multi-threaded system for ShinePrinters that handles printing tasks in 
+a networked environment with multiple computers and printers. Customers create print jobs 
+from any of the three computers, which are then added to a shared queue with a maximum capacity of 5. 
+Two printers consume these jobs and process them. The system ensures memory consistency and 
+handles exceptions such as unsupported file types (TypeNotSupportedException). Additionally, 
+a web interface enables customers to submit print jobs in advance, with a method to read 
+text files and add them to a TextFile object.
