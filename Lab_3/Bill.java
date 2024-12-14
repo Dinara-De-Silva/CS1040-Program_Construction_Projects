@@ -1,4 +1,4 @@
-package POS_Machine;
+
 import java.io.*;
 import java.io.Serializable;
 import java.util.HashMap;

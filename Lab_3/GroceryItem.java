@@ -1,4 +1,4 @@
-package POS_Machine;
+
 
 import javax.xml.namespace.QName;
 import java.io.Serializable;
